@@ -1,0 +1,48 @@
+# Executables #
+###############
+*.pyc
+
+# Temporary files #
+###################
+*~
+*.swo
+*.swp
+*.orig
+.elasticbeanstalk/
+.anvil
+celerybeat-schedule
+
+# cscope files 
+cscope.*
+
+#eclipse project files (Don need'em)
+.project
+.pydevproject
+
+# Some VIM related files that are not required
+.project.ide.files
+
+#Sqlite files
+getmeashop_dev_db
+getmeashop_db
+gmas-batman-srikanth.db
+*.db
+
+# Coverage files
+.coverage
+htmlcov
+#Media directory
+media
+
+#log directory
+log
+logs
+
+*.DS_Store
+zinnia/static/zinnia/sass/.sass-cache
+
+.ropeproject
+django.wsgi
+supervisord.conf
+
+conf.ini
